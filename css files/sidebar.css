@@ -1,0 +1,32 @@
+.sidebar {
+  background-color: white;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  top: 55px; /* header height */
+  width: 72px;
+  z-index: 200;
+  padding-top: 5px;
+} 
+
+.sidebar-links{
+  height: 74px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  cursor: pointer;
+}
+.sidebar-links:hover {
+  background-color: rgb(235, 235, 235);
+}
+/* 
+ * with the space, we are trying to target all the images inside sidebar-links class
+ */
+.sidebar-links img{
+  height: 24px; 
+  margin-bottom: 4px;
+}
+.sidebar-links div {
+  font-size: 10px;
+}
